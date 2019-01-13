@@ -34,9 +34,9 @@ dec = 4.5
 print (dec)
 i_dec = 5
 
-i_dec + int(6.3)
 print (i_dec)
 
+i_dec + int(6.3)          # I have no clue why we wrote this :( ...
 
 
 s = 456456456
