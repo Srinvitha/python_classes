@@ -12,3 +12,4 @@ if n%6 == 0 :
 
 else:
     print ("This number is not divisible by 6 .")
+
