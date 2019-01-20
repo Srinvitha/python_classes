@@ -29,5 +29,3 @@ if h == "Yes":
     print(" :) Okay :)")
     print(" :) Bye-Bye :)")
     print(" :) :(")
-
-
