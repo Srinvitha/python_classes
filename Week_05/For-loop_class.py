@@ -17,3 +17,4 @@ n_list=[2,3,4,5,1,6,7,8,9,13,42]
 for num in n_list:
     if num%2==0:
         print (num)
+
