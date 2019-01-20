@@ -6,7 +6,7 @@
 
 
                                                                                                                     # 3
-AB = input(" Enter any (positive) 2-digit number of your choice => \n")
+AB = (int(input(" Enter any (positive) 2-digit number of your choice => \n")))
 print("\n")
 
 s = AB/10
@@ -34,7 +34,7 @@ print("\n")
 print("\n")
 
                                                                                                                     # 4
-ab = input(" Enter any (positive) 2-digit number of your choice => \n")
+ab = (int(input(" Enter any (positive) 2-digit number of your choice => \n")))
 print("\n")
 
 p = ab/10
@@ -55,9 +55,9 @@ print("\n")
 print("\n")
 
                                                                                                                     # 5
-a = input(" Enter a number 'a' of your choice => \n")
-b = input(" Enter a number 'b' of your choice => \n")
-x = input(" Enter a number 'x' of your choice => \n")
+a = (int(input(" Enter a number 'a' of your choice => \n")))
+b = (int(input(" Enter a number 'b' of your choice => \n")))
+x = (int(input(" Enter a number 'x' of your choice => \n") ))
 
 f = a**b
 print (f)
