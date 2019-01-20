@@ -57,7 +57,7 @@ print("\n")
                                                                                                                     # 5
 a = (int(input(" Enter a number 'a' of your choice => \n")))
 b = (int(input(" Enter a number 'b' of your choice => \n")))
-x = (int(input(" Enter a number 'x' of your choice => \n") ))
+x = (int(input(" Enter a number 'x' of your choice => \n")))
 
 f = a**b
 print (f)
