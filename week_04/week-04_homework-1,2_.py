@@ -1,7 +1,7 @@
 # 1. Input a number n, find whether divided by 2.
 # 2. Input a number n, find whether divided by 6.
 
-n = int(input(" Enter any number of your choice => \n"))
+n = (int(input(" Enter any number of your choice => \n")))
 print("\n")
 
 if n % 2 == 0:

@@ -15,7 +15,7 @@ print (int(s))
 r = AB%10
 print (int(r))
 
-d = 8
+d = (int(input(" Enter a number (from 0 to 9) to check its presence in the double digit number... => ")))
 print("\n")
 
 if s == d :
