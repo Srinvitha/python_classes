@@ -22,10 +22,12 @@ print(g)
 h = a**b                          # Exponent
 print(h)
 
+j = b//a                          # To get Quotient
+print(j)
+
 print ("\n")
 
 i = 23                            # practice-exponent
 p = 45
 t = i**p
 print (t)
-
