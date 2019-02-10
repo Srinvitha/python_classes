@@ -8,6 +8,6 @@ print(hello[-6])
 
 
 # Can be accessed via indexes
-python_string = 'Python Programming'
-print(python_string[0:6])
+python_string = 'Python Programming [0:12]'
+print(python_string[0:12])
 
