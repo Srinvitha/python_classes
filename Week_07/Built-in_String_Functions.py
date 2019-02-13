@@ -11,11 +11,15 @@ print(alph.isalpha())
 print(alph.isalnum())
 print(alph.replace("qwerty42860", "22222222222244444444"))
 
-n = "1234567890"
-print(n.isnumeric)
+
 
 alp = "abcdefg6"
+print(alp)
 alp2 = alp.replace("abcdefg", "s")
 print (alp2)
 final = alp2.replace("6", "4242")
 print(final)
+
+n = 1234567890
+print(n.isnumeric)
+
