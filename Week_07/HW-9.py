@@ -1,0 +1,1 @@
+# 9. Solve the 2,3,4,5 problems making the code in function and return desired values.

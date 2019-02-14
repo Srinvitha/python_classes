@@ -26,4 +26,10 @@ while x < m:
     else:
         print (t[x])
 
+print ("\n")                                                          # Method 3
 
+
+word = 'lead'
+print(word)
+for char in word:
+    print(char)

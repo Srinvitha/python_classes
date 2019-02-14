@@ -15,7 +15,7 @@
 
 # 8. Program to check if a string is palindrome or not (ignoring case and space)
 
-# 9. Solve the 1,2,3,4,5,8 problems making the code in function and return desired values
+# 9. Solve the 1,2,3,4,5,8 problems making the code in function and return desired values.
 
 # 10. Given a list of numbers, print the maximum number in the list
 
