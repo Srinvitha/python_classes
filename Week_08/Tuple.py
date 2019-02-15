@@ -13,3 +13,5 @@ num_tuple= 1,3,6,8,4
 print(num_tuple)
 num_list[1] = 2
 print(num_tuple)
+print (len(num_tuple))
+
