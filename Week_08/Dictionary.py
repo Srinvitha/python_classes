@@ -15,7 +15,7 @@ dict_employee ["Employee_name"] = "Ravi Chandra"
 dict_employee ["Designation"] = "CEO"
 print (dict_employee)
 
-del dict_employee["Age"]           #  comment this if you want to see clear work and then uncomment the clear.
+del dict_employee["Age"]           #  comment this if you want to see "clear" work and then uncomment the clear.
 print(dict_employee)
 
 # dict_employee.clear()
