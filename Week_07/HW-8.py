@@ -44,21 +44,21 @@ def is_palindrome(string):
 
 string = "Was it a rat I saw?"
 print (string)
-print is_palindrome(string), ", It is a palindrome."
+print (is_palindrome(string), ", It is a palindrome.")
 
 
-d = "mada m"                                     # My idea of palindrome finding.:p .:) .
-print(d)
-r = d[::-1]
+m = "madam"                                     # My idea of palindrome finding.:p .:) .
+print(m)
+r = m[::-1]
 print(r)
-
+d = m.lower()
 i = 0
 z = len(d)
 
 
 while i < z:
     if d[i] == r[i]:
-        print d[i], "==" ,r[i]
+        print (d[i], "==" ,r[i])
         i = i+1
     else:
         i = i+1
