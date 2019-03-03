@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Kriyative Edge project</h1>
+    <div>
+      <div id="chatbox">
+        <p class="botText"><span>Hi! I'm a chatbot.</span></p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Message">
+        <input id="buttonInput" type="submit" value="Send">
+      </div>
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          $.get("/chatbot/get", { msg: rawText }).done(function(data) {
+          var bigstring = data.split('_');
+          var firststring = bigstring[0];
+          var secondstring = bigstring[1];
+          if (secondstring)
+            {
+              var botHtml = '<p class="botText"><span>' + firststring + '</span><p class="secondbotText"><span >' + secondstring+ '</span></p></p>';
+            } else {
+            var botHtml = '<p class="botText"><span>' + firststring + '</span></p>';
+            }
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+            if(e.which == 13) {
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+      </script>
+    </div>
+  </body>
+</html>
