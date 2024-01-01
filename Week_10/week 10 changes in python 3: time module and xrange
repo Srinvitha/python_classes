@@ -1,0 +1,32 @@
+import time as t
+
+import time
+
+def my_timeclock():
+    # simulate some work
+    time.sleep(2)
+
+start_time = time.perf_counter()
+
+my_timeclock()
+
+end_time = time.perf_counter()
+
+elapsed_time = end_time - start_time
+
+
+primes = [2,3,5,7]
+
+for num in range(2,2000):
+    if all(num%x != 0 for x in primes):
+        primes.append(num)
+
+print (primes)
+
+print("Elapsed time: {:.2f} seconds".format(elapsed_time))
+print (len(primes), "Primes")
+print (sum(primes), "is the sum of all these prime numbers.")
+
+
+
+# refer for further understanding about the changes : https://www.geeksforgeeks.org/range-vs-xrange-in-python/
