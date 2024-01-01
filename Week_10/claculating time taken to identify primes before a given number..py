@@ -73,3 +73,7 @@ print (sum(primes), "is the sum of all these prime numbers.")
 #
 # main()
 
+
+# https://itsourcecode.com/attributeerror/attributeerror-module-time-has-no-attribute-clock-solved/#:~:text=The%20%E2%80%9Ctime%E2%80%9D%20module%20in%20Python%20is%20used%20to,%28%29%2C%20strftime%20%28%29%2C%20gmtime%20%28%29%2C%20and%20localtime%20%28%29
+
+
